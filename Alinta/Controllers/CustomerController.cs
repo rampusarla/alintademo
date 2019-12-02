@@ -49,7 +49,6 @@ namespace Alinta.Controllers
         {                                        
             try
             {
-                throw new Exception();
                 var response = await _objCustomer.AddCustomer(customer);
                 return Ok(response);                   
             }
